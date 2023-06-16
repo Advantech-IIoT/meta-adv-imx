@@ -1,0 +1,5 @@
+# Microchip Technology USB2740 Hub
+KERNEL=="rtc1", SYMLINK+="rtc"
+
+KERNEL=="ttymxc2", GROUP="dialout", MODE="0664", SYMLINK+="ttyAP0"
+
