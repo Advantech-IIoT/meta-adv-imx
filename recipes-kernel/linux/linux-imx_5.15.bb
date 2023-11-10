@@ -22,15 +22,15 @@ RRECOMMENDS:${KERNEL_PACKAGE_NAME}-base = ""
 
 DEFAULT_PREFERENCE = "1"
 
-KERNEL_SRC ?= "git://github.com/Advantech-IIoT/adv-linux-imx;protocol=https"
+KERNEL_SRC ?= "git://github.com/Advantech-IIoT/ecu-adv-linux-imx;protocol=https"
 SRCBRANCH:imx8mq-ecu150 = "adv-lf-5.15.71-2.2.0"
 SRCREV:imx8mq-ecu150 = "${AUTOREV}"
 
-KERNEL_SRC ?= "git://github.com/Advantech-IIoT/adv-linux-imx;protocol=https"
+KERNEL_SRC ?= "git://github.com/Advantech-IIoT/ecu-adv-linux-imx;protocol=https"
 SRCBRANCH:imx8mq-ecu150a1 = "adv-lf-5.15.71-2.2.0"
 SRCREV:imx8mq-ecu150a1 = "${AUTOREV}"
 
-KERNEL_SRC ?= "git://github.com/Advantech-IIoT/adv-linux-imx;protocol=https"
+KERNEL_SRC ?= "git://github.com/Advantech-IIoT/ecu-adv-linux-imx;protocol=https"
 SRCBRANCH:imx8mq-ecu150fl = "adv-lf-5.15.71-2.2.0"
 SRCREV:imx8mq-ecu150fl = "${AUTOREV}"
 
