@@ -59,6 +59,9 @@ MACHINE_EXTRA_RDEPENDS += " \
 IMAGE_INSTALL:append:mx8-nxp-bsp = " \
 	kernel-image \
 	kernel-devicetree \
+	kernel-dev \
+	kernel-devsrc \
+	kernel-modules \
 "
 
 IMAGE_FSTYPES = "tar.gz wic.gz"
